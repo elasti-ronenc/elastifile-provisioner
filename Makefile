@@ -28,7 +28,7 @@ else
 endif
 
 all build:
-	GOOS=linux go install -v
+	# GOOS=linux go install -v
 	GOOS=linux go build
 .PHONY: all build
 
